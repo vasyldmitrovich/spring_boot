@@ -31,10 +31,10 @@
         <td th:utext="${user.lastName}"></td>
         <td th:utext="${user.gender}"></td>
 
-        <td><a th:href="@{/users/{id}/edit ( id=${user.id} ) }">Edit (Did not work yet)</a></td>
+        <td><a th:href="@{/users/{id}/edit ( id=${user.id} ) }">Edit (Does not work yet)</a></td>
         <td>
             <form th:method="DELETE" th:action="@{/users/{id} ( id=${user.getId()} ) }">
-                <input type="submit" value="Delete (Did not work yet)">
+                <input type="submit" value="Delete (Does not work yet)">
             </form>
         </td>
     </tr>
